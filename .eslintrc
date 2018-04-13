@@ -1,0 +1,10 @@
+{
+	"extends": ["eslint:recommended", "plugin:jest/recommended", "airbnb", "prettier"],
+	"rules": {
+		"func-names": ["error", "never"]
+	},
+	"env": {
+		"browser": false,
+		"node": true
+	}
+}
